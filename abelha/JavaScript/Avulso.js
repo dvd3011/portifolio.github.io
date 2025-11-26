@@ -25,7 +25,7 @@ class Obj {
         if (this.frame > 4) {
             this.frame = 1;
         }
-        this.color = "img/" + nome + this.frame + ".png";
+        this.color = "imagem/" + nome + this.frame + ".png";
     }
 }
 

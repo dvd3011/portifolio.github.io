@@ -1,11 +1,11 @@
 var p = document.getElementById('canvas');
 var pincel = p.getContext("2d");
 
-var bg = new Bg(0, 0, 900, 720, "img/bg.png");
-var bg2 = new Bg(0, -720, 900, 720, "img/bg.png");
-var abelha = new Abelha(0, 500, 100, 100, "img/bee1.png");
-var aranha = new Aranha(100, 100, 100, 100, "img/spider1.png");
-var flor = new Flor(0, 0, 50, 50, "img/flower1.png");
+var bg = new Bg(0, 0, 900, 720, "imagem/bg.png");
+var bg2 = new Bg(0, -720, 900, 720, "imagem/bg.png");
+var abelha = new Abelha(0, 500, 100, 100, "imagem/bee1.png");
+var aranha = new Aranha(100, 100, 100, 100, "imagem/spider1.png");
+var flor = new Flor(0, 0, 50, 50, "imagem/flower1.png");
 
 var placar = new Text();
 var perdeu = new Text();
