@@ -1,124 +1,217 @@
-
-<html>
-	<html lang="pt">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo de David</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@800&family=Poppins:wght@800&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>David Carvalho — Portfólio</title>
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <!-- Meta -->
+  <meta name="description" content="Portfólio de David Carvalho — Programação de Jogos Digitais">
 </head>
-	<body>
-		<header>
-			<h1>Portifólio David</h1>
-		</header>
-		<div id="mySidebar" class="sidebar">
-            <a href = "javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
-            <a href = #dados-pessoais>Dados pessoais</a>
-            <a href = "#formacao">Formação</a>
-            <a href = "#experiencias">Experiências</a>
-			<a href = "#conhecimento">Conhecimento</a>
-			<a href = "#atividades">Atividades Complementares</a>
-			<a href = "#idioma">Idiomas</a>
+<body data-theme="dark">
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <h1>David Carvalho</h1>
+        <p class="tagline">Programador de Jogos Digitais • C# • Unity</p>
+      </div>
+
+      <div class="actions">
+        <button id="theme-toggle" aria-label="Alternar tema" class="icon-btn">🌗</button>
+        <button class="menu-btn" id="menu-open" aria-label="Abrir menu">≡</button>
+      </div>
+    </div>
+  </header>
+
+  <aside id="sidebar" class="sidebar" aria-hidden="true">
+    <nav class="nav">
+      <button id="menu-close" class="close">×</button>
+      <a href="#sobre">Sobre</a>
+      <a href="#dados-pessoais">Dados Pessoais</a>
+      <a href="#formacao">Formação</a>
+      <a href="#experiencias">Experiências</a>
+      <a href="#conhecimento">Conhecimento</a>
+      <a href="#atividades">Atividades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section id="sobre" class="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <img src="imagem/david.jpg" alt="Foto de David" class="avatar">
         </div>
-        <div id ="main">
-            <button class="openbtn" onclick="openNav()">≡ Menu</button>
-      
-        <script src="javascript/script.js"></script>
-        
-
-		  <section class="intro">
-            <img src="imagem/david.jpg"> 
-            <p>Atualmente cursando o último ano do curso de Programação de Jogos Digitais no IFPR,
-				possuo conhecimento na linguagem C#, o conhecimento pode não ser suficiente,
-				mas tenho disposição e vontade para aprender mais e agregar a sua empresa.
-				Afirmo isto, porque apliquei os conhecimentos que adquiri durante o curso, 
-				como também desenvolvi soluções que permitiram o desenvolvimento do jogo 2D
-				que está disponível na página do Instituto Meros do Brasil, em rede nacional,
-				que promove a educação ambiental sobre a preservação do peixe Mero.</p>
-          
-        </section>
-	<section id = "dados-pessoais">
-	<h2><b>Dados Pessoais</b></h2>
-	<hr>
-	<ul>
-	 <li>Nome: DAVID CARVALHO RAYMUNDO DE OLIVEIRA</li>
-	 <li>Cel: (41) - 998240251</li>
-	 <li>Email: davidcarvalh0827@gmail.com</li>
-	 <li>Linkedin: <a href="https://www.linkedin.com/in/david-carvalho-678708227/"> David Carvalho</a></li>
-	</ul>
-</section>
-<section id="formacao">
-	 <h2><b>Formação</b></h2>
-	 <hr>
-	 <ul>
-	 <li>Ensino Médio Técnico em Programação de Jogos Digitais Instituto Federal do Paraná.</li>
-	 <li>2022 - Em Andamento.</li>
-	 <li>Ensino Fundamental Colégio Estadual Leôncio Correia</li>
-	 <li>2019 - 2021</li>
-	</ul>
-</section>
-<section id="experiencias">
-	<h2><b>Experiências</b></h2>
-	<hr>
-	<ul>
-	<li>Projeto Mero - Programador</li>
-	<li>Monitoria Voluntária - Ajudar pessoas com dificuldades na disciplina de Programação 2D.</li>
-	<li>Auxiliar Administrativo (Federação de Desportos Aquáticos do Paraná) - Organização de documentos, Excel básico, organizar e planejar posts nas redes sociais e site da empresa.</li>
-</ul>
-</section>
-
-<section id = "conhecimento">
-	<h2><b>Conhecimento</b></h2>
-	<hr>
-	<ul>
-	<li>Linguagem de programação: C, C++, C# e JavaScript;</li>
-	<li>Linguagem de marcação/texto: HTML5.</li>
-	<li>Linguagem de folha de estilo: CSS</li>
-	<li>Ambiente de desenvolvimento utilizado: Motor Gráfico Unity, Visual Studio, Code Blocks.</p>
-	<li>Software de Modelagem: Blender.</li>
-	<li>Software de Ilustração: Inkscape</li>
-	<li>Software de Som: Fmod, Audacity e Nuendo.</li>
-</ul>
-</section>
-
-<section id="atividades">
-	<h2><b>Atividades complementares e Soft Skills</b></h2>
-	<hr>
-	<ul>
-	<li>Proativo, comunicativo, comprometido, dedicado, criativo e trabalho em equipe.</li>
-</ul>
-</section>
-
-<section id="idioma">
-	<h2><b>Idioma</b></h2>
-	<hr>
-	<ul>
-	<li>Cursando Inglês - avançado - Portella Idiomas</li> 
-</ul>
-</section>
-<section>
-	<div class="carrossel-container">
-		<h2>Projetos Realizados</h2>
-		<hr>
-		<div class="carrossel">
-		  <button class="carrossel-btn" onclick="mudarImagens(-1)">&#10094;</button>
-		  <div class="carrossel-imagens" id="carrossel-imagens">
-		  </div>
-		  <button class="carrossel-btn" onclick="mudarImagens(1)">&#10095;</button>
-		</div>
-	  </div>
-	  
-</section>
-	<footer>
-		<p>C 2025 David Carvalho - Todos os direitos reservados</p>
-		<div class="botoes">
-            <button onclick="mudarFonte('Poppins', 800)">Poppins</button>
-            <button onclick="mudarFonte('Montserrat', 800)">Montserrat</button>
-            <button onclick="mudarFonte('Bebas Neue')">Bebas Neue</button>
+        <div class="hero-right">
+          <h2>Olá, sou David</h2>
+          <p class="lead">Formado em Programação de Jogos Digitais no IFPR. Tenho experiência em C#, Unity e desenvolvimento de jogos 2D/3D. Gosto de resolver problemas, aprender novas tecnologias e construir experiências interativas.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projetos">Ver projetos</a>
           </div>
-	</footer>
-	</body>
-</div>
+
+          <div class="quick-info">
+            <div><strong>Localização:</strong> Curitiba, PR</div>
+            <div><strong>Contato:</strong> davidcarvalho827@gmail.com</div>
+            <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/david-carvalho-678708227/" target="_blank" rel="noopener">David Carvalho</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dados-pessoais" class="section card-grid">
+      <h3>Dados Pessoais</h3>
+      <div class="card">
+        <ul>
+          <li><strong>Nome:</strong> David Carvalho Raymundo de Oliveira</li>
+          <li><strong>Cel:</strong> (41) 99824-0251</li>
+          <li><strong>Email:</strong> davidcarvalh0827@gmail.com</li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/david-carvalho-678708227/" target="_blank">Perfil</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="formacao" class="section">
+      <h3>Formação</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Ensino Médio Técnico em Programação de Jogos Digitais — IFPR</h4>
+          <p>2022-2025</p>
+        </div>
+        <div class="card">
+          <h4>Ensino Fundamental</h4>
+          <p>Colégio Estadual Leôncio Correia (2019 — 2021)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencias" class="section">
+      <h3>Experiências</h3>
+      <div class="card-grid">
+        <div class="card">
+          <h4>Projeto Mero — Programador</h4>
+          <p>Desenvolvimento de mecânicas em Unity e programação do jogo educativo.</p>
+        </div>
+        <div class="card">
+          <h4>Monitoria Voluntária</h4>
+          <p>Auxílio em Programação 2D para colegas.</p>
+        </div>
+        <div class="card">
+          <h4>Auxiliar Administrativo</h4>
+          <p>Federação de Desportos Aquáticos do Paraná — organização de documentos, Excel básico e gerenciamento de conteúdo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="conhecimento" class="section">
+      <h3>Conhecimento técnico</h3>
+      <div class="card">
+        <ul class="skills">
+          <li>C#, C, C++, JavaScript</li>
+          <li>HTML5, CSS3</li>
+          <li>Unity, Visual Studio</li>
+          <li>Blender, Inkscape</li>
+          <li>FMOD, Audacity, Nuendo</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="atividades" class="section">
+      <h3>Atividades complementares e Soft Skills</h3>
+      <div class="card">
+        <ul>
+          <li>Proativo, comunicativo, comprometido, criativo e trabalho em equipe.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <h3>Projetos realizados durante o ensino técnico<</h3>
+      <div class="projects">
+        <!-- carousel is handled by existing javascript/script.js which uses #carrossel-imagens -->
+        <div class="carrossel-wrapper card">
+          <div class="carrossel-controls">
+            <button class="carrossel-nav" onclick="mudarImagens(-1)">&#10094;</button>
+            <div id="carrossel-imagens" class="carrossel-imagens" aria-live="polite"></div>
+            <button class="carrossel-nav" onclick="mudarImagens(1)">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section footer-card">
+      <h3>Contato</h3>
+      <div class="card-grid">
+        <div class="card">
+          <p>Interessado em colaboração ou contratação? Me envie um e-mail ou mensagem no LinkedIn.</p>
+          <p><strong>Email:</strong> <a href="mailto:davidcarvalho827@gmail.com">davidcarvalho827@gmail.com</a></p>
+        </div>
+        <div class="card">
+          <p>Trabalhos e demonstrações disponíveis mediante solicitação. Obrigado por visitar meu portfólio.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 2025 David Carvalho — Todos os direitos reservados</p>
+      <div class="font-controls">
+        <button onclick="mudarFonte('Poppins', 800)" class="micro-btn">Poppins</button>
+        <button onclick="mudarFonte('Inter', 600)" class="micro-btn">Inter</button>
+      </div>
+    </footer>
+  </main>
+
+  <!-- scripts: existing logic preserved -->
+  <script>
+    // theme toggle (persists preference)
+    (function(){
+      const root = document.documentElement;
+      const body = document.body;
+      const btn = document.getElementById('theme-toggle');
+      const sidebar = document.getElementById('sidebar');
+      const menuOpen = document.getElementById('menu-open');
+      const menuClose = document.getElementById('menu-close');
+
+      function applyTheme(t){
+        document.body.setAttribute('data-theme', t);
+        localStorage.setItem('theme', t);
+      }
+      const saved = localStorage.getItem('theme') || 'dark';
+      applyTheme(saved);
+
+      btn.addEventListener('click', () => {
+        const next = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(next);
+      });
+
+      menuOpen.addEventListener('click', () => {
+        sidebar.style.transform = 'translateX(0)';
+        sidebar.setAttribute('aria-hidden', 'false');
+      });
+      menuClose.addEventListener('click', () => {
+        sidebar.style.transform = '';
+        sidebar.setAttribute('aria-hidden', 'true');
+      });
+
+      // close sidebar when link clicked (delegation)
+      sidebar.addEventListener('click', (e)=>{
+        if(e.target.tagName === 'A') {
+          sidebar.style.transform = '';
+          sidebar.setAttribute('aria-hidden', 'true');
+        }
+      });
+    })();
+  </script>
+
+  <!-- link existing scripts (copied into javascript/ folder) -->
+  <script src="javascript/JavaScript.js" defer></script>
+  <script src="javascript/SoundManager.js" defer></script>
+  <script src="javascript/script.js" defer></script>
+</body>
 </html>

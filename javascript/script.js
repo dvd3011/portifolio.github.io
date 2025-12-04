@@ -45,14 +45,6 @@ const imagens = [
     descricao: "O EcoAventura foi desenvolvido em dupla em 2023, como uma atividade avaliativa bimestral. A história do jogo acompanha Pedro, um menino que luta contra a poluição no mundo. Ele fica especialmente revoltado com a chegada de uma empresa na sua cidade, que está poluindo bastante o local. Motivado por essa situação, Pedro sai às ruas coletando lixo e enfrentando diversos obstáculos até chegar à empresa, com o objetivo de acabar com ela. O jogo tem como propósito conscientizar os jogadores sobre a importância da reciclagem e do combate à poluição. Eu fui responsável pela programação do projeto.",
     largura: "50%",
     altura: "auto",
-  },
-  {
-    src: "imagem/img5.png",
-    titulo: "Bee Game",
-    data: "Outubro de 2025",
-    descricao: "O Bee Game é um jogo onde você controla uma abelha e tem como objetivo coletar flores desviando das aranhas, o jogador possui 3 vidas e deve coletar 10 para poder concluir a fase. Jogo feito como atividade avaliativa bimestral no IFPR. ",
-    largura: "50%",
-    altura: "auto",
   }
 ];
 
